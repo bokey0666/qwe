@@ -1,6 +1,6 @@
 for (let index = 0; index < 4; index++) {
     basic.showIcon(IconNames.Heart)
-    basic.pause(1000)
+    basic.pause(500)
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -9,4 +9,5 @@ for (let index = 0; index < 4; index++) {
         . . . . .
         `)
     led.plot(0, 0)
+    basic.pause(500)
 }
